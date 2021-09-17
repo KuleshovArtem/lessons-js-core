@@ -4,63 +4,53 @@ html {
 	background: rgb(0,255,250);
 	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
 	font-size: 16px;
-
-		}
+	}
 .person {
 	/* добавьте ваш код  */
-	font-family: Arial, Helvetica, sans-serif;
 	color: #000;
-
-	/* border-color: #000; */
-	padding: 32px;
-	width: 1280px;
-	margin: 0 auto;
+	border-color: #000;
+	margin: 32px;
 	
-	display: flex;
-	flex-direction:row;
-	flex-wrap: wrap;
-	align-items: center;
 		
 }
 .person__info {
-	justify-content:center;
-	align-items:center;
-	margin-bottom: 32px;
-	padding-right: 32px;
-	
-		/* добавьте ваш код  */
+	display: flex;
+	/* добавьте ваш код  */
 
 
 
 }
 .person__contacts {
-	font-weight: 700;
+	display: flex;
+	/* добавьте ваш код  */
+	
 
-	justify-content: center;
-	align-items:center;
-		/* добавьте ваш код  */
-		
+	
 }
 .person__details {
-	justify-content: center;
+	display: flex;
 	
+
+
 	/* добавьте ваш код  */
 }
 .avatar {
-	width: 360px;
 	/* добавьте ваш код  */
-	}
+	
+}
 .avatar__picture {
 	
 	border-radius: 50%;
+
+
 	border-style: solid;
+	
 	border-color: white;
-	border-width: 32px;
+	border-width: 10px;
 	
 	/* добавьте ваш код  */
 }
 .contacts {
-	flex-direction: column;
 	/* добавьте ваш код  */
 }
 .contacts__name {
@@ -70,28 +60,22 @@ html {
 .contacts__role {
 	/* добавьте ваш код  */
 	font-size: 19.2px;
-	margin-bottom: 2rem;
 }
 .contacts__item {
 	/* добавьте ваш код  */
-	list-style: none;
 }
 .contacts__title {
-	font-style: italic;
 	
 	/* добавьте ваш код  */
 }
 .contacts__title:after {
-	margin-bottom: 48px;
 	/* добавьте ваш код  */
 }
 .contacts__link {
 	/* добавьте ваш код  */
 	color: gray;
-	
 }
 .paragraph {
-	margin-bottom: 16px;
 	/* добавьте ваш код  */
 }
 .paragraph_last {
